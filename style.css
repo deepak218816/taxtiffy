@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.services, .price, .contact {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.services h2, .contact h2 {
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+.services ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.services li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.price h3 {
+  text-align: center;
+  color: #28a745;
+  font-size: 1.5rem;
+}
+
+.price span {
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+.contact p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #e9ecef;
+  margin-top: 2rem;
+}
